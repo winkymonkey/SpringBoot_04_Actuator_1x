@@ -1,0 +1,13 @@
+info:
+  app:
+    name: Spring Sample Application
+    description: This is my first spring boot application
+    version: 1.0.0
+
+
+management:
+  port: 8081            #port used to expose actuator
+  address: 127.0.01     #CIDR allowed to hit actuator
+  security:
+    enabled: false      #Whether security should be enabled or disabled altogether
+
