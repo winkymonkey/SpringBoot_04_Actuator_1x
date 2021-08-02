@@ -20,4 +20,5 @@ public class MyHealthIndicator implements HealthIndicator {
 		// Our custom logic to check health
 		return 0;
 	}
+	
 }

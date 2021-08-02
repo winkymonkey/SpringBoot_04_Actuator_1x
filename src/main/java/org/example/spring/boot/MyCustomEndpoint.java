@@ -29,4 +29,5 @@ public class MyCustomEndpoint implements Endpoint<List<String>> {
         messages.add("This is message 2");
         return messages;
     }
+    
 }
